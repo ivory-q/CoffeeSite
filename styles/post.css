@@ -1,0 +1,36 @@
+nav {
+  box-shadow: 0 5px 0 #f5f3f2;
+}
+
+.flex-column {
+  display: flex;
+  width: 70%;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+}
+
+.post .header {
+  font: bold 3rem "Trebuchet MS";
+}
+
+.parag-post {
+  font: normal 1.5rem "Segoe UI";
+}
+
+.sub-header {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font: bold 2rem "Trebuchet MS";
+}
+
+.highlight {
+  background-color: #f5f3f2;
+  color: orangered;
+  padding: 20px;
+  border-radius: 10px;
+  font: bold 1.75rem "Trebuchet MS";
+  line-height: 1.5;
+}
