@@ -207,6 +207,14 @@ h2 {
   font-size: 1.5rem;
 }
 
+.story-link {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
 .story-link a:hover {
   border-bottom: 2px solid black;
 }

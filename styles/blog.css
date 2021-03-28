@@ -1,0 +1,84 @@
+nav {
+  box-shadow: 0 5px 0 #f5f3f2;
+}
+#home-jumbotron {
+  background-image: url("./img/blog-index.jpg");
+}
+#jumbotron-content {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  min-width: 62rem;
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  #jumbotron-content {
+    min-width: 0;
+    align-items: center;
+  }
+}
+
+.stories-row {
+    width: 100%;
+}
+
+.story {
+  width: 50%;
+}
+
+.post1 {
+  transition: all 100ms;
+  text-decoration: none;
+}
+
+.post1:hover {
+  transform: translateY(-1%);
+}
+
+.story-date {
+  color: #000;
+}
+
+.stories .story p.story-desc {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000;
+  font: normal 1.5rem "Segoe UI";
+}
+
+.story-link {
+  z-index: 9;
+  font-weight: bold;
+}
+
+.story-link:hover {
+  box-shadow: inset 0 -2px 0 black;
+}
+
+@media screen and (max-width: 460px) {
+    .stories .story h2{
+        font-size: 1.5rem;
+    }
+    .stories .story .story-date{
+        font-size: 1.25rem;
+    }
+    .stories .story p.story-desc{
+        font-size: 1.25rem;
+    }
+}  
+
+@media screen and (max-width: 900px) {
+    .stories-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .story {
+        width: 90%;
+    }
+    #jumbotron-content {
+        padding: 0;
+    }
+}

@@ -150,6 +150,7 @@
 
 @media screen and (max-width: 1000px) {
     #jumbotron-content {
+        padding: 0;
         min-width: 0;
         align-items: center;
       }
