@@ -1,0 +1,156 @@
+#jumbotron-content {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  min-width: 62rem;
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#home-jumbotron {
+  background-image: url("./img/products-jumbotron.jpg");
+}
+
+.about-products,
+.gallery-article {
+  flex-direction: column;
+}
+
+.gallery {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-row {
+  display: flex;
+}
+
+.small-img {
+  width: 50%;
+}
+
+.small-img:nth-of-type(1) {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.small-img:nth-of-type(2) {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.small-img > img,
+.big-img > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.big-img {
+  width: 100%;
+}
+
+.stories {
+    margin-top: 50px;
+}
+
+.stories-row {
+    flex-direction: column;
+   align-items: center;
+}
+
+.story {
+    margin-bottom: 25px;
+    max-width: 70%;
+}
+
+.stories .story h2 {
+    font-size: 1.5rem;
+}
+
+.stories .story p.story-author {
+    align-self: flex-end;
+    margin-top: 20px;
+    font: bold 1.35rem "Trebuchet MS";
+    color: #595756;
+}
+
+.full-width-img {
+    width: 100%;
+}
+
+.pay-plans {
+    margin-top: 25px;
+    display: flex;
+}
+
+.plan {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan > .type {
+    font: bold 1.5rem "Trebuchet MS";
+    color: #595756;
+}
+.plan > .price {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font: bold 3.5rem "Trebuchet MS";
+    color: orangered;
+}
+
+.plan > .target {
+    width: 90%;
+    font: bold 1.25rem "Trebuchet MS";
+    color: black;
+}
+.plan > .features {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.features > .divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 4px;
+    background-color: #f5f3f2;
+}
+
+.features > .feature {
+    font: normal 1.25rem "Segoe UI";
+    color: black;
+}
+
+.rub {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .small-gap {
+        text-align: center;
+    }
+    .gallery {
+        width: 90%;
+    }
+    .pay-plans {
+        align-items: center;
+        flex-direction: column;
+    }
+    .plan {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+} 
+
+@media screen and (max-width: 1000px) {
+    #jumbotron-content {
+        min-width: none;
+        align-items: center;
+      }
+} 
