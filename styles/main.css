@@ -1,0 +1,212 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#home-jumbotron {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: 50%;
+  background-size: cover !important;
+  background-image: url("./img/home-jumbotron.jpg");
+}
+
+#jumbotron-content {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+p {
+  margin-top: 24px;
+}
+
+h1 > span,
+p > span {
+  box-shadow: 0 0 0 5px orangered;
+  display: inline;
+  margin: 0;
+  line-height: 1.25;
+  text-align: left;
+  background-color: orangered;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 > span {
+  font-size: 4rem;
+}
+
+p > span {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+article {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-flex {
+  flex-direction: column;
+}
+
+article > .article-text,
+.column-flex > .wide-article,
+.product-info {
+  margin-top: 0;
+  max-width: 55%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 3rem;
+  line-height: 1.25;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.column-flex > .wide-article {
+  max-width: 75%;
+}
+
+.product-info {
+  margin-top: 25px;
+  max-width: 90%;
+}
+
+.small-gap {
+  margin-bottom: 1rem;
+}
+
+.bg-grey {
+  background-color: #f5f3f2;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.bg-white {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.svg-image {
+  width: 240px;
+}
+
+.products-row {
+  margin-top: 50px;
+  display: flex;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.link-btn {
+  background-color: white;
+  margin-top: 50px;
+  text-decoration: none;
+  color: orangered;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  border: 2px solid orangered;
+  padding: 10px 15px;
+}
+
+.img-with-text-left .img-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.img-with-text-left > .column-flex {
+  width: 70%;
+  margin-right: 20px;
+}
+
+.about-us > img {
+  width: 100%;
+}
+
+.stories-row {
+  display: flex;
+}
+
+.story {
+  padding: 20px;
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: .5rem;
+  background-color: #f5f3f2;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.stories .story h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: orangered;
+}
+
+.stories .story p {
+  margin: 0;
+}
+
+.story-date {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  
+}
+
+.story-link a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+.story-link a:hover {
+  border-bottom: 2px solid black;
+}
